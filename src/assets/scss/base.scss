@@ -1,0 +1,40 @@
+@import './variable.scss';
+
+body {
+  overflow-x: hidden !important;
+//   margin-bottom: 0 auto !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+// .c-btn {
+//   padding: 8px 20px;
+//   font-size: 15px;
+//   border-radius: 50px;
+//   border: 1px solid;
+//   box-shadow: 0px 0px 5px #0000002e;
+//   cursor: pointer;
+//   text-transform: uppercase;
+  
+//   &.btn-green {
+//     background-color: $green;
+//     color: $white;
+//     border-color: $green;
+//     &:hover {
+//       background-color: darken($green, 5%);
+//     }
+//   }
+// }
