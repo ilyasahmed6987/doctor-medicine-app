@@ -17,7 +17,7 @@ export const routes: Routes = [
       import('./pages/signup-screen/signup-screen').then((c) => c.SignupScreen),
   },
   {
-    path: 'signup',
+    path: 'forgot',
     loadComponent: () =>
       import('./pages/forgot-screen/forgot-screen').then((c) => c.ForgotScreen),
   },

@@ -1,2 +1,66 @@
 @import '../../../styles.scss';
 
+.signup-screen {
+    padding-top: 20px;
+
+    .head {
+        padding-bottom: 45px;
+
+        i {
+            color: $d-black;
+            font-size: 16px;
+        }
+
+        p {
+            color: $d-black;
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+
+    input {
+        &.custom-input {
+            border-radius: 14px;
+            padding: 7px 40px 7px 40px;
+            border-color: $silver;
+            background-color: $l-silver;
+            color: $d-black;
+        }
+    }
+
+    i {
+        &.fa-user,
+        &.fa-envelope,
+        &.fa-lock {
+            position: relative;
+            bottom: 30px;
+            left: 15px;
+            font-size: 17px;
+            color: $l-grey;
+        }
+    }
+
+    label {
+        a {
+            color: $d-green;
+            font-weight: 500;
+        }
+    }
+
+    .signup-btn {
+        padding-top: 18px;
+    }
+
+    .below-section {
+        p {
+            padding-top: 20px;
+            text-align: center;
+            color: $d-grey;
+
+            a {
+                color: $d-green;
+                font-weight: 500;
+            }
+        }
+    }
+}
