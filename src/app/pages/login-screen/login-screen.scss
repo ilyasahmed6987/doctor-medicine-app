@@ -25,15 +25,15 @@
         }
     }
 
-        input {
-            &.custom-input {
-                border-radius: 14px;
-                padding: 7px 40px 7px 40px;
-                border-color: $silver;
-                background-color: $l-silver;
-                color: $d-black;
-            }
+    input {
+        &.custom-input {
+            border-radius: 14px;
+            padding: 7px 40px 7px 40px;
+            border-color: $silver;
+            background-color: $l-silver;
+            color: $d-black;
         }
+    }
 
     i {
 

@@ -24,4 +24,48 @@
             padding-bottom: 35px;
         }
     }
+
+    .tab-email-phone {
+        .btn-group {
+            width: 100%;
+            border: 1px solid $silver;
+            border-radius: 30px;
+            background-color: $l-silver;
+            margin-bottom: 25px;
+        }
+
+        button {
+            &.active {
+                font-weight: 500;
+                background-color: $white;
+                color: $d-green;
+                border-color: $silver;
+            }
+
+            color: $l-grey;
+            border-radius: 30px;
+            background-color: $l-silver;
+        }
+
+        input {
+            &.custom-input {
+                border-radius: 14px;
+                padding: 7px 40px 7px 40px;
+                border-color: $silver;
+                background-color: $l-silver;
+                color: $d-black;
+            }
+        }
+
+        i {
+
+            &.fa-envelope, &.fa-phone {
+                position: relative;
+                bottom: 30px;
+                left: 15px;
+                font-size: 17px;
+                color: $l-grey;
+            }
+        }
+    }
 }
