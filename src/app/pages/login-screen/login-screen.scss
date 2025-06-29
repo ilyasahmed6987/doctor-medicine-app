@@ -25,15 +25,15 @@
         }
     }
 
-    input {
-        &.custom-input {
-            border-radius: 14px;
-            padding: 7px 40px 7px 40px;
-            border-color: $silver;
-            background-color: $l-silver;
-            color: $d-black;
+        input {
+            &.custom-input {
+                border-radius: 14px;
+                padding: 7px 40px 7px 40px;
+                border-color: $silver;
+                background-color: $l-silver;
+                color: $d-black;
+            }
         }
-    }
 
     i {
 
@@ -53,6 +53,37 @@
             font-weight: 500;
             cursor: pointer;
         }
+    }
+
+    // Error state for inputs
+    input.ng-invalid.ng-touched,
+    input.ng-invalid.ng-dirty {
+        border-color: #dc3545 !important;
+    }
+
+    // Success state for inputs
+    input.ng-valid.ng-touched,
+    input.ng-valid.ng-dirty {
+        border-color: $d-green !important;
+    }
+
+    // Error message below inputs
+    .error small {
+        color: #dc3545;
+        font-size: 12px;
+        margin-top: 4px;
+        display: block;
+    }
+
+    // Success alert
+    .alert-success {
+        border-color: $silver;
+        background-color: $l-silver;
+        color: $d-green;
+        border-radius: 14px;
+        padding: 7px 40px 7px 40px;
+        font-size: 14px;
+        margin-top: 15px;
     }
 
     .signin-btn {
