@@ -4,17 +4,24 @@
     padding-top: 20px;
 
     .head {
-        padding-bottom: 45px;
-
         i {
             color: $d-black;
             font-size: 16px;
+            padding-bottom: 45px;
+        }
+
+        h3 {
+            color: $d-black;
+            font-size: 21px;
+            font-weight: 700;
+            padding-bottom: 10px;
         }
 
         p {
-            color: $d-black;
-            font-size: 17px;
-            font-weight: 600;
+            color: $l-grey;
+            font-size: 16px;
+            line-height: 1.3;
+            padding-bottom: 35px;
         }
     }
 
@@ -44,6 +51,7 @@
         a {
             color: $d-green;
             font-weight: 500;
+            cursor: pointer;
         }
     }
 
@@ -60,6 +68,7 @@
             a {
                 color: $d-green;
                 font-weight: 500;
+                cursor: pointer;
             }
         }
     }
