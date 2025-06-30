@@ -1,0 +1,71 @@
+@import '../../../styles.scss';
+
+.homepage-screen {
+    padding-top: 30px;
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 20px;
+            width: 50%;
+            color: $d-black;
+        }
+
+        i {
+            font-size: 22px;
+            color: $d-black;
+        }
+    }
+
+    .search-bar {
+        margin-top: 25px;
+
+        input {
+            &.custom-input {
+                border-radius: 50px;
+                padding: 7px 30px 7px 42px;
+                border-color: $silver;
+                background-color: $l-silver;
+                color: $d-black;
+            }
+        }
+
+        i {
+
+            &.fa-magnifying-glass {
+                position: relative;
+                bottom: 32px;
+                left: 15px;
+                font-size: 16px;
+                color: $l-grey;
+            }
+        }
+    }
+
+    .categories {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .category {
+            text-align: center;
+
+            i {
+                border-radius: 15px;
+                border: 1px solid $silver;
+                color: $d-green;
+                padding: 14px;
+                font-size: 28px;
+            }
+
+            p {
+                color: $l-grey;
+                font-size: 16px;
+                padding-top: 8px;
+            }
+        }
+    }
+}

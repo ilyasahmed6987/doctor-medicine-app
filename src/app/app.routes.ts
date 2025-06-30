@@ -21,4 +21,9 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/forgot-screen/forgot-screen').then((c) => c.ForgotScreen),
   },
+  {
+    path: 'homepage',
+    loadComponent: () =>
+      import('./pages/homepage/homepage').then((c) => c.Homepage),
+  },
 ];
